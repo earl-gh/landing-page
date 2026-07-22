@@ -126,6 +126,10 @@ a {
     gap: 12px;
 }
 
+.left h1, .left p {
+    text-align: start;
+}
+
 /* For info section */
 .info .border {
     flex-direction: column;
@@ -142,6 +146,12 @@ a {
 .info .container {
     display: flex;
     gap: 16px;
+    flex-flow: row wrap;
+    width: 100%;
+}
+
+.info .container > * {
+        flex: 1 1 150px;
 }
 
 .items {
@@ -157,14 +167,11 @@ p {
 /* For testimonial section */
 .testimonial {
     background-color: #e5e7eb;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .testimonial .border {
     flex-direction: column;
-    align-items: end;
+    align-items: center;
     gap: 8px;
 }
 
