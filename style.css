@@ -171,7 +171,7 @@ p {
 
 .testimonial .border {
     flex-direction: column;
-    align-items: center;
+    text-align: center;
     gap: 8px;
 }
 
@@ -189,7 +189,7 @@ p {
     color: #F0EEE6;
     width: 100%;
     border-radius: 12px;
-    padding: 32px 0;
+    padding: 32px 64px;
 }
 
 .card .left {
